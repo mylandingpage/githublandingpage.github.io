@@ -6,7 +6,7 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>Title</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,18 +18,20 @@
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<div>
         <div class="container">
 
-            <div class="row">
-					HEllo WOrld is this a good font
-					<h2 class="section-heading">This is my title</h2>
-                    <div class="lead">This is a bunch of content</div>
-                	<div class="col-lg-5 col-lg-offset-2 col-sm-6">
-							<img class="img-responsive" src="img/services/{{ post.img }}" alt="">
-					</div>
+				<div class="row">
+
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+					<h2 class="section-heading">Some TItle</h2>
+                    <div class="lead">This is some long winded content</div>
                 </div>
-			</div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                  <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                </div>
+
 			</div>
 		</div>
 	</body>
